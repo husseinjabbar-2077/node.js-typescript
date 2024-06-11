@@ -21,7 +21,7 @@ npm install typescript ts-node @types/node --save-dev
 4. Create a tsconfig.json file:
    This file will configure the TypeScript compiler options.
 
-```bash
+```json
 {
   "compilerOptions": {
     "target": "ES6",
@@ -82,19 +82,15 @@ npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --
 
 . Create a .eslintrc.json file:
 
-```bash
+```json
 {
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "plugins": ["@typescript-eslint"],
-  "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended"
-  ]
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"]
 }
-
 ```
 
 . Testing: Use a testing framework like Jest with TypeScript support.
