@@ -1,5 +1,7 @@
 # node.js-typescript
 
+by hussein jabbar 2024
+
 # Setting Up a Node.js Project with TypeScript
 
 Install Node.js: Make sure you have Node.js installed. You can download it from the official website.
